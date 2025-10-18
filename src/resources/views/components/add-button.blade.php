@@ -1,3 +1,3 @@
-<div>
-    <!-- Because you are alive, everything is possible. - Thich Nhat Hanh -->
-</div>
+<button type="button" class="add-button"> + 商品を追加</button>
+
+
