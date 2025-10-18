@@ -18,3 +18,8 @@ use App\Http\Controllers\ProductController;
 // });
 
 Route::get('/products', [ProductController::class, 'index']);
+
+// テスト用
+Route::get('/test', function () {
+    return view('test');
+});

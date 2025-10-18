@@ -1,12 +1,12 @@
 .search-button {
-    background-color: #2196F3;
-    color: white;
+    background-color: #f9e747;
+    color: rgb(49, 44, 44);
     border: none;
     border-radius: 5px;
-    padding: 6px 12px;
+    padding: 8px 16px;
     cursor: pointer;
 }
 
 .search-button:hover {
-    background-color: #0b7dda;
+    background-color: #f4f88b;
 }
