@@ -4,8 +4,9 @@
     padding: 8px 16px;
     border-radius: 5px;
     cursor: pointer;
+    border: none;
 }
 
 .add-button:hover {
-    background-color: #eda53b;
+    background-color: #f8c374;
 }
