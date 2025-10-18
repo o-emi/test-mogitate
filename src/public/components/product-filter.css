@@ -1,0 +1,11 @@
+.product-filter {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.product-filter select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
