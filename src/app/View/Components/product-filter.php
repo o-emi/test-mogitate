@@ -4,7 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class product-filter extends Component
+class ProductFilter extends Component
 {
     /**
      * Create a new component instance.

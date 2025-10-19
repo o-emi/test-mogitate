@@ -4,7 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class pagination extends Component
+class Pagination extends Component
 {
     /**
      * Create a new component instance.

@@ -4,7 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class searchbutton extends Component
+class SearchButton extends Component
 {
     /**
      * Create a new component instance.

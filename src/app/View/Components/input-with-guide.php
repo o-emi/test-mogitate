@@ -4,7 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class input-with-guide extends Component
+class InputWithGuide extends Component
 {
     /**
      * Create a new component instance.
