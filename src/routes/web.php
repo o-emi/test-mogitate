@@ -23,3 +23,4 @@ Route::get('/test', function () {
 });
 
 Route::get('/products', [ProductController::class, 'index']);
+Route::get('/products/register', [ProductController::class, 'create'])->name('products.register');

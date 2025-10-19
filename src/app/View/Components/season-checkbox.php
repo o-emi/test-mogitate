@@ -4,7 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class season-checkbox extends Component
+class SeasonCheckBox extends Component
 {
     /**
      * Create a new component instance.
