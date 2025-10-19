@@ -6,11 +6,12 @@ use Illuminate\View\Component;
 
 class ProductCard extends Component
 {
-      public $name;
+    public $name;
     public $price;
     public $image;
 
-    public function __construct($name, $price, $image)
+      // テスト用確認データ
+    public function __construct($name = 'テスト商品', $price = 1000)
 
     {
         $this->name = $name;
