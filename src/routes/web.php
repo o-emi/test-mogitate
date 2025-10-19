@@ -17,9 +17,9 @@ use App\Http\Controllers\ProductController;
 //     return view('welcome');
 // });
 
-Route::get('/products', [ProductController::class, 'index']);
-
 // テスト用
 Route::get('/test', function () {
     return view('test');
 });
+
+Route::get('/products', [ProductController::class, 'index']);
