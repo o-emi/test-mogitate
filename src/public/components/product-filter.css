@@ -1,80 +1,89 @@
-/* フォームだけタイプ */
-.filter-input {
-    width: 180px;
-    padding: 6px 10px;
-    color: #aaa;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-}
 
-/* プルダウンタイプ */
-.filter-form {
+/* 基本フォームタイプ */
+.filter-basic {
     display: flex;
-    align-items: center;
-    gap: 8px;
+    justify-content: flex-start;
+    margin-bottom: 16px;
 }
 
-.filter-select {
-    padding: 6px 10px;
-    font-size: 14px;
-    color: #767373;
-    border-radius: 6px;
+.filter-basic-form {
+    width: 100%;
+    max-width: 250px;
+}
+
+.filter-input {
+    width: 100%;
+    padding: 8px 12px;
     border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    transition: border-color 0.2s ease;
+}
+
+.filter-input:focus {
+    border-color: #999;
+    outline: none;
+}
+
+/* プルダウン */
+.filter-basic {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 16px;
+}
+
+.filter-basic-form {
+    width: 100%;
+    max-width: 250px;
+}
+
+.filter-input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #333;
     background-color: #fff;
 }
-
-.filter-button:hover {
-    background-color: #0056b3;
-}
-
-/* タグ式タイプ */
+/* タグタイプ */
 .filter-tags {
     display: flex;
-    gap: 10px;
     flex-wrap: wrap;
-    align-items: center;
-}
-
-.tag-placeholder {
-    padding: 6px 12px;
-    color: #aaa;
-    font-size: 14px;
+    gap: 8px;
+    margin-bottom: 16px;
 }
 
 .tag {
-    display: inline-flex;          /* 横並びで文字と×を中央揃え */
-    align-items: center;           /* 縦中央揃え */
-    padding: 5px 10px;             /* タグ内の余白 */
-    border: 1px solid orange;      /* 枠をオレンジ */
-    border-radius: 12px;           /* 丸みのある角 */
-    font-size: 14px;               /* 文字サイズ */
-    color: #333;                   /* 文字色 */
-    text-decoration: none;
-    background-color: #fff;        /* 背景白 */
-}
-
-.tag:hover {
-    background: #ddd;
-}
-
-.tag.active {
-    border-color: orange;
+    display: flex;
+    align-items: center;
+    padding: 6px 10px;
+    border: 1px solid orange;
+    border-radius: 12px;
+    background-color: #fff;
     color: #333;
+    font-size: 14px;
+    text-decoration: none;
 }
 
-.tag-close {
+.tag .tag-close {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 16px;                   /* ×のサイズ */
-    height: 16px;
-    margin-left: 6px;              /* 文字との間隔 */
-    border-radius: 50%;            /* 丸 */
-    border: 1px solid orange;      /* ×の枠 */
-    font-size: 12px;               /* ×の文字サイズ */
-    line-height: 1;
-    cursor: pointer;
-    color: orange;
+    width: 18px;
+    height: 18px;
+    margin-left: 6px;
+    border: 1px solid orange;
+    border-radius: 50%;
     background-color: #fff;
+    color: orange;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 6px;
+    /* text-align: center; */
+    /* line-height: 16px; */
 }
+

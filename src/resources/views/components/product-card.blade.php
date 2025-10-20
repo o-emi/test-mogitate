@@ -1,6 +1,8 @@
+  @props(['image', 'name', 'price'])
+
   <div class="card">
     <div class="product-img">
-      <img src="{{ $image }}" alt="{{ $name }}" />
+      <img src="{{ asset('storage/'.$image) }}" alt="{{ $name }}">
     </div>
     <div class="text-box">
       <h2>{{ $name }}</h2>

@@ -1,4 +1,37 @@
-.h1 {
-  background-color: aquamarine;
-  
+.card {
+    display: flex;            /* 横並び */
+    align-items: center;      /* 高さを中央に揃える */
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    width: 100%;              /* コンテナ幅に収める */
+    max-width: 400px;         /* カードの最大幅 */
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+
+.product-img img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-right: 12px;      /* テキストとの間隔 */
+}
+
+.text-box {
+    display: flex;
+    align-items: center; /* 縦方向中央揃え */
+    gap: 12px;           /* 商品名と値段の間隔 */
+}
+
+.text-box h2 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.text-box .price {
+    font-weight: bold;
+    color: #333;
 }
