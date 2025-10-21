@@ -20,7 +20,7 @@ class ProductFactory extends Factory
                 'キウイ', 'ストロベリー', 'オレンジ', 'スイカ', 'ピーチ',
                 'シャインマスカット', 'パイナップル', 'ブドウ', 'バナナ', 'メロン'
             ]),
-            'price' => $this->faker->numberBetween(600, 1400),
+            'price' => $this->faker->numberBetween(1, 500) * 500,
             'description' => $this->faker->text(100),
             'image' => $this->faker->randomElement([
                 'fruits-img/kiwi.png',

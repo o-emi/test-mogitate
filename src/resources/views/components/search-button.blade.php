@@ -1,1 +1,4 @@
-<button type="button" class="search-button">検索</button>
+<button type="submit" class="search-button">
+    検索
+</button>
+

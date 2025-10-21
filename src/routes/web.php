@@ -22,5 +22,6 @@ Route::get('/test', function () {
     return view('test');
 });
 
-Route::get('/products', [ProductController::class, 'index']);
+Route::get('/products', [ProductController::class, 'index'])->name('products.index');
 Route::get('/products/register', [ProductController::class, 'create'])->name('products.register');
+Route::get('/products/search', [ProductController::class, 'search'])->name('products.search');
