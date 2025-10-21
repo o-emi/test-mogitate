@@ -25,8 +25,6 @@
 <!-- タグタイプ -->
 @elseif ($type === 'tag')
 <div class="filter-tags">
-    <span class="tag-placeholder">価格で並び替え</span>
-
     @if(request('sort') === 'price_desc')
         <a href="{{ route('products.index') }}" class="tag active">
             高い順に表示
