@@ -12,7 +12,7 @@ class ProductSeeder extends Seeder
     {
         $seasons = Season::all();
 
-        // 名前と画像を固定した配列
+        // 商品情報
         $products = [
             ['name' => 'バナナ', 'image' => 'fruits-img/banana.png', 'price' => 500],
             ['name' => 'グレープ', 'image' => 'fruits-img/grapes.png', 'price' => 1000],
